@@ -1,8 +1,9 @@
-name: "infra pipe;line"
+name: "infra pipeline"
 on: workflow_dispatch
 permissions:
   id-token: write
-  contents : read
+  contents: read
+
 
 jobs:
   terraform-job:
