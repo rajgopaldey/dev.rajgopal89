@@ -1,5 +1,8 @@
 name: "infra pipe;line"
 on: workflow_dispatch
+permissions:
+  id-token: write
+  contents : read
 
 jobs:
   terraform-job:
@@ -24,6 +27,7 @@ jobs:
           tenant-id: fbf3517a-6193-4d03-9580-ce8a94c1e28c
        
           subscription-id: a7275015-536e-4c99-8431-5c9bfbc026c9
-        
-        
+
+    
+      
             
